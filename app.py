@@ -5,8 +5,8 @@ from flask_sqlalchemy import SQLAlchemy
 app = Flask(__name__)
 
 username = 'root'
-server = 'viaduct.proxy.rlwy.net:57008'
-senha = 'bjIHRqcmhrrKRcAGZicawzzWKtwesigL'
+server = 'viaduct.proxy.rlwy.net:13519'
+senha = 'eldtOEyLNXMbXWARyaTcEfYppMoBzDcv'
 db = 'railway'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql+pymysql://{username}:{senha}@{server}/{db}'
